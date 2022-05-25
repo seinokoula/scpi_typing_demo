@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["SCPI au comptant", "SCPI à crédit", "SCPI en assurance-vie", "SCPI en démembrement"];
+const textArray = ["au comptant", "à crédit", "en assurance-vie", "en démembrement"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
